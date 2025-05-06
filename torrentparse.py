@@ -19,3 +19,4 @@ for root, dirs, files in os.walk(Dir + torDir):
         dirList.append(os.path.join(root, file)) # список полных путей из папки
 
 print(set(dirList) - set(fileList))
+# список лишних файлов, которые имеются на диске, но которых не имеется в торрент файле
