@@ -8,7 +8,6 @@ dlina, vysota   = 720, 1024
 #длина 1080 - 9/16, 1440 - 3/4
 
 text_size       = 40
-#margin_top      = 460
 margin_bottom   = 150
 line_spacing    = 100
 font            = 'Roboto_SemiCondensed-Medium.ttf'
