@@ -39,7 +39,6 @@ while True:
     f'-filter_complex "[0:v]scale=-2:480:flags=lanczos[v0];[v0]drawtext=text={text}:fontcolor=white:fontsize=15:x=10:y=10:bordercolor=black:borderw=3[video];'
     f'[0:a]volume=1.0[audio]" -map [video] -map [audio] -b:v 3M -minrate 3M -maxrate 3M -bufsize 512k -threads 3 '
     f'-f flv rtmp://hel03.contribute.live-video.net/app/{key}', shell = True) #TWITCH
-    #f'-f flv rtmp://a.rtmp.youtube.com/live2/jb4v-g3qb-1j6y-08sf-4qtw', shell = True) #YOUTUBE
 
     print('Генерю файл')
     subprocess.run(f'ffmpeg -hide_banner -loglevel error -nostats -re -ss {start} -t {shag} -i "{dir}/{ifile}" -c:v libx264 -preset superfast -profile:v baseline ' + 
