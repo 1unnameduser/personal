@@ -1,9 +1,9 @@
 dir                             = r'/'
 fps                             = 60
 text                            = 'Podpishis na kanal!'
-twitchkey                       = ''
+twitchkey                       = '' # ключ трансляции на твиче
 
-instUSERNAME, instPASSWORD      = '', ''
+instUSERNAME, instPASSWORD      = '', '' #задавать в явном виде
 caption                         = '#twitch #s1rmtrpr #stream #стример #стримы #прохождение #летсплей'
 
 dlina, vysota                   = 720, 1024
