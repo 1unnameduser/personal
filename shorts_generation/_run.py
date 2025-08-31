@@ -14,7 +14,7 @@ font            = 'Roboto_SemiCondensed-Medium.ttf'
 text_border     = 5
 
 start           = 0
-shag            = 17
+shag            = random.randint(15, 35)
 fade_dur        = 0.5
 
 dur = int(subprocess.check_output(rf'ffprobe.exe -i "{ifile}" -show_entries format=duration -v quiet -of csv="p=0"').decode('utf-8').split(".")[0])
