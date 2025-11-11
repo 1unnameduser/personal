@@ -1,5 +1,5 @@
 import pickle
-import os, glob
+import os, sys
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
@@ -24,7 +24,7 @@ if os.path.exists(__G_DRIVE_TOKEN_FILE):
         ):
             credentials.refresh(Request())
 else:
-    flow = InstalledAppFlow.from_client_secrets_file('client_secret.json', __OAUTH_SCOPE)
+    flow = InstalledAppFlow.from_client_secrets_file(sys.argv[1], __OAUTH_SCOPE)
     credentials = flow.run_local_server(port=0, open_browser=False)
 
 with open(__G_DRIVE_TOKEN_FILE, "wb") as token:
