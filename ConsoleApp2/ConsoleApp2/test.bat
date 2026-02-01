@@ -1,0 +1,1 @@
+md "%~dp0%random%"
