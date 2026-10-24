@@ -12,8 +12,4 @@ shorts_generation - если хочешь сгенерить из видеофа
 
 TokenPickle-main - если хочешь сгенерить ключ доступа к гугл аккаунту для termux например
 
-ConsoleApp1 - если нужно скрытно запустить .bat файл с тем же именем, что и скомпилированный .exe (C#)
-
-ConsoleApp2 - если нужно запустить файл с тем же именем, что и скомпилированный .exe (см. комменты) (C++) - https://github.com/1unnameduser/exe-simple
-
 NVIDIA Broadcast Block Update.bat - если нужно чтобы NVIDIA Broadcast не проверяло обновления
