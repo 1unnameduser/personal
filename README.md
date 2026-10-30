@@ -4,8 +4,6 @@ shorts_generation - если хочешь сгенерить из видеофа
 
 NVIDIA Broadcast Block Update.bat - если нужно чтобы NVIDIA Broadcast не проверяло обновления
 
-TwoWorldsSave_BKP.bat - если зае*ался с туворлд, когда оно сохранения ломает просто так
-
 delete_commits.bat - если нужно срочно удалитьвсе коммиты, как будто их и не было
 
 hidden-bat.7z - для скрытого запуска bat файлов (в архиве всё необходимое)
